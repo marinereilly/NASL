@@ -5,6 +5,11 @@ Version: 0.1.0
 Author: Erin Reilly
 Maintainer: Erin Reilly
 Description: Currently only has two functions, loading NASL data into a useable dataframe and converting mg/L measurements to umol/L
+Depends:
+    R (>= 3.1.1)
+Imports:
+  readxl
+  tidyr
 License: MIT
 Encoding: UTF-8
 LazyData: true
